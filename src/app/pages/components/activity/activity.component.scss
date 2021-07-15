@@ -1,0 +1,59 @@
+.wrap-actifity {
+  color: #f3e4ce;
+  font-family: 'Lato';
+  padding-right: 10em;
+  hr {
+    border: 2px solid;
+  }
+  .wrap-title {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    h2 {
+      font-weight: 100;
+      margin: 0 4em 10px 0;
+    }
+    p {
+      font-size: 14px;
+      margin: 0 0 10px 0;
+    }
+  }
+  .wrap-notif {
+    display: flex;
+    margin: 25px 0;
+    transition: 300ms;
+    &:hover {
+      padding: 5px;
+      cursor: pointer;
+      border-radius: 3px;
+      border: 2px solid #f3e4ce;
+    }
+    .picture {
+      width: 100px;
+      height: 70px;
+      background-color: #f3e4ce;
+    }
+    .upload-desc {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 15px;
+      p {
+        margin: 0;
+      }
+      .uploader {
+        font-weight: 600;
+        span {
+          font-size: 14px;
+          font-weight: 100;
+        }
+      }
+      .title {
+        font-size: 14px;
+      }
+      .timer-updated {
+        font-size: 12px;
+      }
+    }
+  }
+}
