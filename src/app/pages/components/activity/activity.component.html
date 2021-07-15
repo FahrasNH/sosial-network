@@ -4,12 +4,14 @@
     <p>View Timeline / Filter activities</p>
   </div>
   <hr />
-  <div class="wrap-notif">
+  <div class="wrap-notif" *ngFor="let activity of activities">
     <div class="picture"></div>
     <div class="upload-desc">
-      <p class="uploader">Michael <span>uploaded new video</span></p>
-      <p class="title">How do I start a website design project</p>
-      <p class="timer-updated">1 day ago</p>
+      <p class="uploader">
+        {{activity.name}} <span>{{activity.activity}}</span>
+      </p>
+      <p class="title">{{activity.title}}</p>
+      <p class="timer-updated">{{activity.updated}}</p>
     </div>
   </div>
 </div>
