@@ -1,0 +1,19 @@
+<div *ngFor="let content of contents" class="content-container">
+  <div>
+    <h2>{{(content.name)}}</h2>
+  </div>
+  <table>
+    <tr>
+      <td colspan="2" rowspan="2" class="banner">Banner</td>
+      <td colspan="1" rowspan="1" class="thumb">Thumbnail</td>
+    </tr>
+    <tr>
+      <td colspan="1" rowspan="1" class="thumb">Thumbnail</td>
+    </tr>
+    <tr>
+      <td colspan="1" rowspan="1" class="thumb">Thumbnail</td>
+      <td colspan="1" rowspan="1" class="thumb">Thumbnail</td>
+      <td colspan="1" rowspan="1" class="thumb-upload">{{content.title}}</td>
+    </tr>
+  </table>
+</div>
