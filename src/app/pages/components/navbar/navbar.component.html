@@ -18,4 +18,16 @@
       </div>
     </div>
   </div>
+
+  <div class="wrap-navbar-menu">
+    <hr>
+    <div class="navbar-menu">
+      <ul>
+        <li *ngFor="let menu of arrMenu; let last = last;">
+          <a href="">{{menu}}</a><span>{{last ? '' : '/'}}</span>
+        </li>
+      </ul>
+    </div>
+    <hr>
+  </div>
 </header>

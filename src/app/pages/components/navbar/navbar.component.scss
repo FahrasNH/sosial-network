@@ -65,4 +65,25 @@ header {
       }
     }
   }
+
+  .wrap-navbar-menu {
+    margin: 3em 0;
+    .navbar-menu {
+      margin: 0 10px;
+      ul {
+        padding: 0;
+        li {
+          list-style: none;
+          margin-left: 20px;
+          display: inline-block;
+          color: #f3e4ce;
+          a {
+            color: #f3e4ce;
+            margin-right: 20px;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
 }
