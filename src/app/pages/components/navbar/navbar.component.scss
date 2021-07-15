@@ -1,8 +1,8 @@
 header {
+  font-family: 'Lato';
   padding: 3em 10em;
   .container-head {
-    background-color: red;
-    .navbar-menu {
+    .header-menu {
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -16,10 +16,50 @@ header {
       }
       .nav-right {
         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .upload-btn {
+          height: 35px;
+          border: none;
+          color: #963d45;
+          padding: 5px 10px;
+          border-radius: 2px;
+          margin: 0 8px;
+          background-color: #f3e4ce;
+        }
+        input {
+          width: 300px;
+          height: 25px;
+          border: none;
+          color: #963d45;
+          padding: 5px 10px;
+          border-radius: 2px;
+          margin: 0 8px;
+          background-color: #f3e4ce;
+          &::placeholder {
+            color: #963d45;
+          }
+        }
         .profile {
-          .img-profile {
-            height: 50px;
-            width: 50px;
+          margin: 0 0 0 8px;
+          display: flex;
+          img {
+            display: block;
+            height: 33px;
+            width: 33px;
+            margin-right: 8px;
+            border-radius: 2px;
+            border: 2px solid #f3e4ce;
+          }
+          .username {
+            color: #f3e4ce;
+            .first-name {
+              margin: 0;
+            }
+            .last-name {
+              margin: 0;
+              font-size: 11px;
+            }
           }
         }
       }
