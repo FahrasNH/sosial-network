@@ -2,8 +2,11 @@
   color: #f3e4ce;
   font-family: 'Lato';
   padding-right: 10em;
-  hr {
+  .first {
     border: 2px solid;
+  }
+  .last {
+    border: 1px solid;
   }
   .wrap-title {
     display: flex;

@@ -9,18 +9,31 @@
   table {
     border-spacing: 20px;
     .banner {
+      position: relative;
+      padding: 10px;
       width: 450px;
       height: 300px;
       border-radius: 2px;
       background-color: #f3e4ce;
+      p {
+        bottom: 0;
+        position: absolute;
+      }
     }
     .thumb {
+      position: relative;
+      padding: 10px;
       width: 200px;
       height: 140px;
       border-radius: 2px;
       background-color: #f3e4ce;
+      p {
+        bottom: 0;
+        position: absolute;
+      }
     }
     .thumb-upload {
+      padding: 10px;
       color: #f3e4ce;
       border: 2px solid #f3e4ce;
       background-color: transparent;

@@ -1,0 +1,13 @@
+<div class="wrap-channels">
+  <div class="wrap-title">
+    <h2>Channels</h2>
+    <p>Browse all channels</p>
+  </div>
+  <hr class="first" />
+  <div class="wrap-channel">
+    <div class="picture" *ngFor="let channel of channels">
+      <p>{{channel.title}}</p>
+    </div>
+  </div>
+  <hr class="last" />
+</div>

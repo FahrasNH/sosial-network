@@ -3,7 +3,7 @@
     <h2>Activity</h2>
     <p>View Timeline / Filter activities</p>
   </div>
-  <hr />
+  <hr class="first" />
   <div class="wrap-notif" *ngFor="let activity of activities">
     <div class="picture"></div>
     <div class="upload-desc">
@@ -14,4 +14,5 @@
       <p class="timer-updated">{{activity.updated}}</p>
     </div>
   </div>
+  <hr class="last" />
 </div>
