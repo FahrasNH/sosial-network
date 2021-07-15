@@ -1,0 +1,11 @@
+/* Add application styles & imports to this file! */
+html {
+  padding: 5px;
+  height: 100%;
+  background-color: #f3e4ce;
+}
+
+body {
+  height: 100%;
+  background-color: #963d45;
+}
