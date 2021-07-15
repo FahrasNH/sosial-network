@@ -1,4 +1,22 @@
 footer {
   padding: 3em 10em;
   font-family: 'Lato';
+  .social-media {
+    display: flex;
+    margin-top: 2em;
+    .wrap-sosmed {
+      width: 35px;
+      height: 35px;
+      display: flex;
+      border-radius: 2px;
+      margin-right: 10px;
+      align-items: center;
+      justify-content: center;
+      background-color: #f3e4ce;
+      .img-sosmed {
+        width: 15px;
+        height: 15px;
+      }
+    }
+  }
 }
