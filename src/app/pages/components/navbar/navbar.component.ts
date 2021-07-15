@@ -6,19 +6,40 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-  arrMenu: string[] = [];
+  arrMenu: any[] = [];
 
   constructor() {}
 
   ngOnInit(): void {
     this.arrMenu = [
-      'Videos',
-      'People',
-      'Documents',
-      'Events',
-      'Communities',
-      'Favourites',
-      'Channel'
+      {
+        title: 'Videos',
+        url: '/'
+      },
+      {
+        title: 'People',
+        url: '/'
+      },
+      {
+        title: 'Documents',
+        url: '/'
+      },
+      {
+        title: 'Events',
+        url: '/'
+      },
+      {
+        title: 'Communities',
+        utl: '/'
+      },
+      {
+        title: 'Favourites',
+        url: '/'
+      },
+      {
+        title: 'Channel',
+        url: '/'
+      }
     ];
   }
 }

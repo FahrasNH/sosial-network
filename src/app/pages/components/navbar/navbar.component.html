@@ -9,7 +9,7 @@
         <button class="upload-btn">Upload</button>
         <div class="profile">
           <img alt="img-profile" class="" src="https://stackblitz.com/files/angular-ivy-um24md/github/FahrasNH/sosial-network/master/src/app/assets/Webp.net-compress-image.jpg
-          "/>
+        "/>
           <div class="username">
             <p class="first-name">Fahras</p>
             <p class="last-name">Nur Hidayat</p>
@@ -24,7 +24,7 @@
     <div class="navbar-menu">
       <ul>
         <li *ngFor="let menu of arrMenu; let last = last;">
-          <a href="">{{menu}}</a><span>{{last ? '' : '/'}}</span>
+          <a href="{{menu.url}}">{{menu.title}}</a><span>{{last ? '' : '/'}}</span>
         </li>
       </ul>
     </div>
