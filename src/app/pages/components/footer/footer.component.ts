@@ -6,5 +6,36 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
-  ngOnInit(): void {}
+  arrMenu: any[] = [];
+
+  constructor() {}
+
+  ngOnInit(): void {
+    this.arrMenu = [
+      {
+        title: 'About',
+        url: '/'
+      },
+      {
+        title: 'For Business',
+        url: '/'
+      },
+      {
+        title: 'Suggestions',
+        url: '/'
+      },
+      {
+        title: 'Help & FAQs',
+        url: '/'
+      },
+      {
+        title: 'Contacts',
+        utl: '/'
+      },
+      {
+        title: 'Pricing',
+        url: '/'
+      }
+    ];
+  }
 }

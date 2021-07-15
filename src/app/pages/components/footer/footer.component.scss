@@ -19,4 +19,31 @@ footer {
       }
     }
   }
+
+  .wrap-footer-menu {
+    margin: 3em 0 0 0;
+    .footer-menu {
+      ul {
+        padding: 0;
+        margin-bottom: 3em;
+        li {
+          list-style: none;
+          margin-right: 20px;
+          display: inline-block;
+          color: #f3e4ce;
+          a {
+            font-size: 14px;
+            color: #f3e4ce;
+            margin-right: 20px;
+            text-decoration: none;
+          }
+        }
+      }
+      p {
+        margin: 5px 0 0 0;
+        font-size: 14px;
+        color: #f3e4ce;
+      }
+    }
+  }
 }

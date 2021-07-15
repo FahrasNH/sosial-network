@@ -1,14 +1,41 @@
 <footer>
-  <hr>
+  <hr />
   <div class="social-media">
     <div class="wrap-sosmed">
-      <img class="img-sosmed" src="https://stackblitz.com/files/angular-ivy-um24md/github/FahrasNH/sosial-network/master/src/app/assets/images/twitter.svg" alt="twitter" />
+      <img
+        class="img-sosmed"
+        src="https://stackblitz.com/files/angular-ivy-um24md/github/FahrasNH/sosial-network/master/src/app/assets/images/twitter.svg"
+        alt="twitter"
+      />
     </div>
     <div class="wrap-sosmed">
-      <img class="img-sosmed" src="https://stackblitz.com/files/angular-ivy-um24md/github/FahrasNH/sosial-network/master/src/app/assets/images/linkedin.svg" alt="linkedIn" />
+      <img
+        class="img-sosmed"
+        src="https://stackblitz.com/files/angular-ivy-um24md/github/FahrasNH/sosial-network/master/src/app/assets/images/linkedin.svg"
+        alt="linkedIn"
+      />
     </div>
     <div class="wrap-sosmed">
-      <img class="img-sosmed" src="https://stackblitz.com/files/angular-ivy-um24md/github/FahrasNH/sosial-network/master/src/app/assets/images/facebook.svg" alt="facebook" />
+      <img
+        class="img-sosmed"
+        src="https://stackblitz.com/files/angular-ivy-um24md/github/FahrasNH/sosial-network/master/src/app/assets/images/facebook.svg"
+        alt="facebook"
+      />
+    </div>
+  </div>
+
+  <div class="wrap-footer-menu">
+    <div class="footer-menu">
+      <ul>
+        <li *ngFor="let menu of arrMenu; let last = last;">
+          <a href="{{menu.url}}">{{menu.title}}</a
+          ><span>{{last ? '' : '/'}}</span>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-menu">
+      <p>©Copyright 2021 SocialNetwork.inc</p>
+      <p>Privacy / Terms</p>
     </div>
   </div>
 </footer>
