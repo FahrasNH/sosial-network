@@ -1,6 +1,9 @@
 footer {
   padding: 3em 10em;
   font-family: 'Lato';
+  @media (max-width: 1030px) {
+    padding: 1em 3em;
+  }
   .social-media {
     display: flex;
     margin-top: 2em;
@@ -26,11 +29,17 @@ footer {
       ul {
         padding: 0;
         margin-bottom: 3em;
+        @media (max-width: 1030px) {
+          text-align: center;
+        }
         li {
           list-style: none;
           margin-right: 20px;
           display: inline-block;
           color: #f3e4ce;
+          @media (max-width: 910px) {
+            margin-top: 10px;
+          }
           a {
             font-size: 14px;
             color: #f3e4ce;

@@ -64,4 +64,9 @@
       }
     }
   }
+  .last {
+    @media (max-width: 1115px) {
+      display: none;
+    }
+  }
 }
