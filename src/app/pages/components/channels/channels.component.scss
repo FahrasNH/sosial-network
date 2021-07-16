@@ -57,6 +57,21 @@
       height: 100px;
       position: relative;
       background-color: #f3e4ce;
+      &::after {
+        content: '';
+        width: 0;
+        height: 0;
+        top: 0;
+        right: 0;
+      }
+      &:hover {
+        cursor: pointer;
+        &::after {
+          position: absolute;
+          border-top: 25px solid #963d45;
+          border-left: 25px solid transparent;
+        }
+      }
       p {
         bottom: 0;
         color: #963d45;

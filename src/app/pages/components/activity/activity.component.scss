@@ -46,17 +46,30 @@
     display: flex;
     margin: 25px 0;
     transition: 300ms;
+    position: relative;
     @media (max-width: 1382px) {
       display: block;
     }
     @media (max-width: 1115px) {
       display: flex;
     }
+    &::after {
+      content: '';
+      width: 0;
+      height: 0;
+      top: 0;
+      right: 0;
+    }
     &:hover {
       padding: 5px;
       cursor: pointer;
       border-radius: 3px;
       border: 2px solid #f3e4ce;
+      &::after {
+        position: absolute;
+        border-top: 25px solid #f3e4ce;
+        border-left: 25px solid transparent;
+      }
     }
     .picture {
       width: 100px;
