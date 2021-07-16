@@ -1,11 +1,17 @@
 header {
   font-family: 'Lato';
   padding: 3em 10em;
+  @media (max-width: 1030px) {
+    padding: 1em 3em;
+  }
   .container-head {
     .header-menu {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      @media (max-width: 1030px) {
+        flex-direction: column;
+      }
       h2 {
         color: #f3e4ce;
         margin: 0;
@@ -18,6 +24,9 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        @media (max-width: 1030px) {
+          flex-direction: column;
+        }
         .upload-btn {
           height: 35px;
           border: none;
@@ -26,6 +35,10 @@ header {
           border-radius: 2px;
           margin: 0 8px;
           background-color: #f3e4ce;
+          @media (max-width: 1030px) {
+            width: 100%;
+            margin-top: 10px;
+          }
         }
         input {
           width: 300px;
@@ -39,10 +52,17 @@ header {
           &::placeholder {
             color: #963d45;
           }
+          @media (max-width: 1030px) {
+            margin: 25px 0 0 0;
+          }
         }
         .profile {
           margin: 0 0 0 8px;
           display: flex;
+          @media (max-width: 1030px) {
+            width: 100%;
+            margin-top: 10px;
+          }
           img {
             display: block;
             height: 33px;
@@ -72,11 +92,17 @@ header {
       margin: 0 10px;
       ul {
         padding: 0;
+        @media (max-width: 1030px) {
+          text-align: center;
+        }
         li {
           list-style: none;
           margin-left: 20px;
           display: inline-block;
           color: #f3e4ce;
+          @media (max-width: 910px) {
+            margin-top: 10px;
+          }
           a {
             color: #f3e4ce;
             margin-right: 20px;
