@@ -4,6 +4,9 @@ footer {
   @media (max-width: 1030px) {
     padding: 1em 3em;
   }
+  @media (max-width: 410px) {
+    padding: 1em;
+  }
   .social-media {
     display: flex;
     margin-top: 2em;

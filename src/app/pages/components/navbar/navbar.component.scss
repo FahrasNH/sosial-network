@@ -4,6 +4,9 @@ header {
   @media (max-width: 1030px) {
     padding: 1em 3em;
   }
+  @media (max-width: 410px) {
+    padding: 1em;
+  }
   .container-head {
     .header-menu {
       display: flex;
