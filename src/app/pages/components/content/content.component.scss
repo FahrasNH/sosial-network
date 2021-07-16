@@ -1,6 +1,9 @@
 .content-container {
   padding: 0 0 50px 10em;
   font-family: 'Lato';
+  @media (max-width: 1030px) {
+    padding: 1em 3em;
+  }
   h2 {
     margin: 0;
     color: #f3e4ce;
@@ -8,6 +11,9 @@
   }
   table {
     border-spacing: 20px;
+    @media (max-width: 580px) {
+      border-spacing: 2px;
+    }
     .banner {
       position: relative;
       padding: 10px;
@@ -21,15 +27,18 @@
       }
     }
     .thumb {
-      position: relative;
       padding: 10px;
       width: 200px;
       height: 140px;
       border-radius: 2px;
+      position: relative;
       background-color: #f3e4ce;
       p {
         bottom: 0;
         position: absolute;
+        @media (max-width: 580px) {
+          position: relative;
+        }
       }
     }
     .thumb-upload {
