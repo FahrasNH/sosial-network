@@ -2,6 +2,12 @@
   color: #f3e4ce;
   font-family: 'Lato';
   padding-right: 10em;
+  @media (max-width: 1115px) {
+    padding: 3em 10em;
+  }
+  @media (max-width: 1030px) {
+    padding: 1em 3em;
+  }
   .first {
     border: 2px solid;
   }
@@ -15,6 +21,21 @@
     h2 {
       font-weight: 100;
       margin: 0 4em 10px 0;
+      @media (max-width: 1436px) {
+        margin: 0 3em 10px 0;
+      }
+      @media (max-width: 1412px) {
+        margin: 0 2em 10px 0;
+      }
+      @media (max-width: 1375px) {
+        margin: 0 1em 10px 0;
+      }
+      @media (max-width: 1115px) {
+        margin: 0 4em 10px 0;
+      }
+      @media (max-width: 463px) {
+        margin: 0 1em 10px 0;
+      }
     }
     p {
       font-size: 12px;
@@ -25,6 +46,12 @@
     display: flex;
     margin: 25px 0;
     transition: 300ms;
+    @media (max-width: 1382px) {
+      display: block;
+    }
+    @media (max-width: 1115px) {
+      display: flex;
+    }
     &:hover {
       padding: 5px;
       cursor: pointer;
@@ -35,14 +62,29 @@
       width: 100px;
       height: 70px;
       background-color: #f3e4ce;
+      @media (max-width: 1382px) {
+        margin: 0 auto;
+      }
+      @media (max-width: 1115px) {
+        margin: 0 10px 0 0;
+      }
     }
     .upload-desc {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       margin-left: 15px;
+      @media (max-width: 1382px) {
+        margin: 10px 0;
+      }
+      @media (max-width: 1115px) {
+        margin: 0;
+      }
       p {
         margin: 0;
+        @media (max-width: 1382px) {
+          margin: 3px 0;
+        }
       }
       .uploader {
         font-weight: 600;

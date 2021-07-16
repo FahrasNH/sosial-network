@@ -1,7 +1,7 @@
 .section {
   display: flex;
   justify-content: space-between;
-  @media (max-width: 1030px) {
-    display: grid;
+  @media (max-width: 1115px) {
+    display: block;
   }
 }

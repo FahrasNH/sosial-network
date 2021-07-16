@@ -2,6 +2,12 @@
   color: #f3e4ce;
   font-family: 'Lato';
   padding-right: 10em;
+  @media (max-width: 1115px) {
+    padding: 3em 10em;
+  }
+  @media (max-width: 1030px) {
+    padding: 1em 3em;
+  }
   .first {
     border: 2px solid;
   }
@@ -16,6 +22,21 @@
     h2 {
       font-weight: 100;
       margin: 0 4em 10px 0;
+      @media (max-width: 1436px) {
+        margin: 0 3em 10px 0;
+      }
+      @media (max-width: 1412px) {
+        margin: 0 2em 10px 0;
+      }
+      @media (max-width: 1375px) {
+        margin: 0 1em 10px 0;
+      }
+      @media (max-width: 1115px) {
+        margin: 0 4em 10px 0;
+      }
+      @media (max-width: 463px) {
+        margin: 0 1em 10px 0;
+      }
     }
     p {
       font-size: 12px;
